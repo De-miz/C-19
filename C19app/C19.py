@@ -72,7 +72,7 @@ def module_manager():
 
 
 module_manager()
-static_files_path = str(Path(__file__).resolve().parent.parent) + '/static/'
+static_files_path = str(Path(__file__).resolve().parent.parent) + '/staticfiles/'
 csv_path = str(Path(__file__).resolve().parent) + '/csv/C19.csv'
 DATA_SOURCE = csv_path
 DATAFRAME = de.read_csv(csv_path)
